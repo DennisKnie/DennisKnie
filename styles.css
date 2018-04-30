@@ -10,6 +10,7 @@
         
         .name {
             font-size: 70px;
+            color: #2d3c49;
             text-align: justify;
             white-space: nowrap;
             font-family: Gruppo;
@@ -20,8 +21,9 @@
         #title {
             font-size: 25px;
             font-family: Gruppo;
+            color: #2d3c49;
             text-align: right;
-            margin: 0;
+            margin: 0 0 20px 0;
             padding: 0;
         }
         
@@ -98,4 +100,17 @@
 
 figcaption {
    text-align: center;
+}
+
+#work   {
+    font-size: 70px;
+    font-family: Gruppo;
+    color: #7d97ad;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+figure {
+    margin-top: 0;
+    padding-top: 0;
 }
