@@ -1,0 +1,116 @@
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        logo {
+            text-align: left;
+            width: 25%;
+        }
+        
+        .name {
+            font-size: 70px;
+            color: #2d3c49;
+            text-align: justify;
+            white-space: nowrap;
+            font-family: Gruppo;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #title {
+            font-size: 25px;
+            font-family: Gruppo;
+            color: #2d3c49;
+            text-align: right;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+        
+        .border {
+            border-bottom: 3px solid #7d97ad;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        nav {
+            width: 300px;
+            position: absolute;
+            /* This trasform moves the drawer off canvas. */
+            -webkit-transform: translate(-300px, 0);
+            transform: translate(-300px, 0);
+            /* Optionally, we animate the drawer. */
+            transition: transform 0.3s ease;
+        }
+        
+        nav.open {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+        }
+        
+        .flex-container-name {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: stretch;
+            margin-right: auto;
+            position: relative;
+        }
+        
+        .col-1 {
+            width: 25%;
+        }
+        
+        .col-3 {
+            width: 100%;
+            text-align: left;
+            float: right;
+        }
+        
+        .smaller-image {
+            width: 400px;
+            border-color: #F20A30;
+            border-width: 4px;
+            border-style: solid;
+            margin-top: 100px;
+            /*margin-left: 40px;*/
+        }
+        
+        .content-parallax {
+            height: 1000px;
+            padding: 300px;
+            background-image: url("https://static.pexels.com/photos/195494/pexels-photo-195494.jpeg");
+            background-size: cover;
+            background-attachment: fixed;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+.theme {
+    padding: 2px 120px;
+}
+
+figcaption {
+   text-align: center;
+}
+
+#work   {
+    font-size: 70px;
+    font-family: Gruppo;
+    color: #7d97ad;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+figure {
+    margin-top: 0;
+    padding-top: 0;
+}
