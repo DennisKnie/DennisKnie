@@ -11,7 +11,7 @@
         .name {
             font-size: 70px;
             color: #2d3c49;
-            text-align: justify;
+            text-align: right;
             white-space: nowrap;
             font-family: Gruppo;
             margin: 0;
@@ -70,7 +70,7 @@
         
         .col-3 {
             width: 100%;
-            text-align: left;
+            text-align: right;
             float: right;
         }
         
