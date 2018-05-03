@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
-    <title>Dennis Knie Personal Portfolio</title>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dennis Knie's Portfolio</title>
+	<link href="css/test.css" rel="stylesheet" />
+	<link href="css/test%20responsive.css" rel="stylesheet" />
+	
 </head>
-
 <body>
-    <header>
-        <div>
-            <div>
-                <img class="logo" src=".\img\DKLogo.png" alt="Udacity Logo">
-            </div>
-            <div class="header-wrapper">
-                <h1>DENNIS KNIE</h1>
-                <h4>FRONT END NINJA</h4>
-            </div>
-        </div>
 
-    </header>
-    <div>
-        <!--photo from Negative Space, photographer: Goran Ivos -->
-        <img src="img\goran-ivos-343495-unsplash.jpeg" alt="Laptop on desk next to chocolate cake">
-    </div>
+	<header>
+		<img id="logo" src="img/DKLogo.png" alt="Site Logo">
+		<div class="info">
+			<h1>Dennis Knie</h1>
+			<p>Creater | Designer | Developer | Entrepreneur</p>
+		</div>
+	</header>
 
-    <div>
-        <h3>Feature Work</h3>
-    </div>
-    <div>
-        <a target="blank" href="https://codepen.io/DennisKnie/full/rWrKdO/">
-            <img class="project" src="https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=cfd784ba45da88c66dcecef820dd5dc7" alt="Personal Portfolio Parallax Page. "> Parallax Personal Portfolio.
-        </a>
-        <img class="project" src="" alt="">
-        <img class="project" src="" alt="">
-    </div>
+	<div class="top-border"></div>
+
+	<main>
+		<section class="main-image">
+			<img src="img/goran-ivos-343495-unsplash.jpg">
+		</section>
+		<section class="featured-work">
+			<div class="featured-work-header">
+				<h2>Featured Work</h2>
+			</div>
+			<div class="work">
+				<div class="item">
+					<a href="https://codepen.io/DennisKnie/full/rWrKdO/" target="_blank">
+						<img class="item-image" src="https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=cfd784ba45da88c66dcecef820dd5dc7" alt="Apple iMac on desk">
+						<p class="item-info">Old Portfolio Design</p>
+					</a>
+				</div>
+                <div class="item">
+					<a href="https://codepen.io/DennisKnie/full/MQdRJW/" target="_blank">
+						<img class="item-image" src="img/PixalArtMaker.PNG" alt="Pixel Art Maker">
+						<p class="item-info">Pixel Art Maker</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="https://codepen.io/DennisKnie/full/rpqeXN/" target="_blank">
+						<img class="item-image" src="img/SiberianTiger.PNG" alt="Siberian Tiger">
+						<p class="item-info">Animal Trading Card</p>
+					</a>
+				</div>
+				
+				<div class="item">
+					<a href="http://pinoyganda.com/" target="_blank">
+						<img class="item-image" src="img/pinoyganda.png" alt="Pinoy Ganda">
+						<p class="item-info">Pinoy Ganda</p>
+					</a>
+				</div>
+                </div>
+		</section>
+	</main>
+
+	<footer>
+		<p>Made by Dennis Knie</p>
+	</footer>
 </body>
-
 </html>
