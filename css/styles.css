@@ -8,6 +8,8 @@ logo {
     width: 25%;
 }
 
+
+/*
 .name {
     font-size: 70px;
     text-align: justify;
@@ -37,10 +39,16 @@ nav {
     width: 300px;
     position: absolute;
     /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(-300px, 0);
-    transform: translate(-300px, 0);
-    /* Optionally, we animate the drawer. */
-    transition: transform 0.3s ease;
+
+
+/* -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);*/
+
+
+/* Optionally, we animate the drawer. */
+
+
+/* transition: transform 0.3s ease;
 }
 
 nav.open {
@@ -90,7 +98,7 @@ nav.open {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
-}
+} */
 
 .header {
     align-self: stretch;
@@ -100,8 +108,11 @@ nav.open {
 
 .header-wrapper {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
+    text-align: right;
+    padding: 0;
+}
+
+.project {
+    width: 350px;
+    height: 261px;
 }
