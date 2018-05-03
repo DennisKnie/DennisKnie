@@ -1,118 +1,123 @@
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-logo {
-    text-align: left;
-    width: 25%;
-}
-
-
-/*
-.name {
-    font-size: 70px;
-    text-align: justify;
-    white-space: nowrap;
-    font-family: Gruppo;
-    margin: 0;
-    padding: 0;
-}
-
-#title {
-    font-size: 25px;
-    font-family: Gruppo;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-}
-
-.border {
-    border-bottom: 3px solid #7d97ad;
-}
+/*   DEFAULT STYLES   */
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-nav {
-    width: 300px;
-    position: absolute;
-    /* This trasform moves the drawer off canvas. */
-
-
-/* -webkit-transform: translate(-300px, 0);
-    transform: translate(-300px, 0);*/
-
-
-/* Optionally, we animate the drawer. */
-
-
-/* transition: transform 0.3s ease;
+html, body {
+	background-color: #fdfdff;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 16px;
+	color: #34495e;
 }
 
-nav.open {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+h1, h2 {
+	margin-bottom: 3px;
+	color: #2c3e50;
+	text-transform: uppercase;
 }
 
-.flex-container {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-end;
+h1 {
+	font-size: 1.5em;
 }
 
-.flex-container-name {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: stretch;
-    margin-right: auto;
-    position: relative;
+h2 {
+	font-size: 1.3em;
 }
 
-.col-1 {
-    width: 25%;
+a {
+	text-decoration: none; 
+	color: #34495e;
 }
 
-.col-3 {
-    width: 100%;
-    text-align: left;
-    float: right;
+.top-border {
+	border-bottom: 2px #34495e solid;
 }
 
-.smaller-image {
-    width: 400px;
-    border-color: #F20A30;
-    border-width: 4px;
-    border-style: solid;
-    margin-top: 100px;
-    margin-left: 40px;
+header, main, footer, .top-border {
+	width: 85%;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
-.content-parallax {
-    height: 1000px;
-    padding: 300px;
-    background-image: url("https://static.pexels.com/photos/195494/pexels-photo-195494.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-} */
 
-.header {
-    align-self: stretch;
-    display: flex;
-    justify-content: space-between;
+/*      HEADER        */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.header-wrapper {
-    width: 75%;
-    text-align: right;
-    padding: 0;
+#logo {
+	width: 70px;
+	padding: 15px 0;
 }
 
-.project {
-    width: 350px;
-    height: 261px;
+.info {
+	text-align: right;
+}
+
+header p {
+	font-size: .75em;
+}
+
+
+/*       FEATURE      */
+
+.main-image img {
+	width: 100%;
+	border-radius: 4px;
+    margin: 20px 0 40px 0;
+}
+
+.featured-work {
+	text-align: center;
+}
+
+.featured-work-header {
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+.work {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.item {
+	border: 1px  #bbb solid;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	transition: transform .3s;
+}
+
+.item:hover {
+	transform: scale(1.02);
+	transition: transform .3s;
+}
+
+.item, .item img {
+	width: 100%;
+}
+
+.item img {
+	border-radius: 4px 4px 0 0;
+}
+
+.item-info {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+
+/*       FOOTER       */
+
+footer {
+	padding: 40px 0 60px 0;
+	text-align: center;
 }
