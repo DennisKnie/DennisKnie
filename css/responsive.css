@@ -2,6 +2,7 @@
 	#logo {
 		width: 100px;
 	}
+
 	h1 {
 		font-size: 32px;
 	}
@@ -14,8 +15,7 @@
 		font-size: 19px;
 	}
 
-	header,
-	.top-border {
+	header, .top-border {
 		width: 83%;
 	}
 
@@ -30,12 +30,11 @@
 		width: 48%;
 		margin-left: 1%;
 		margin-right: 1%;
-		}
 	}
+}
 
 @media screen and (min-width: 1070px) {
-	header,
-	.top-border {
+	header, .top-border {
 		width: 880px;
-		}
 	}
+}
